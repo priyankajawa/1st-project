@@ -1,0 +1,108 @@
+header{
+    font-style:oblique ;
+    font-size: large;
+}
+.navlogo{
+    background-color: black;
+   
+    padding-left: 150px;
+
+}
+.search{
+    float:bottom;
+   color: bisque;
+   margin-top: 0px;
+   padding: 10px,20px;
+   display:inline-block;
+   text-align: center;
+}
+ul{
+    float:top;
+    padding-right:200px;
+    
+    font-size: 20px;
+    margin-left:1000px;
+    list-style-type: disc;
+
+}
+ul li {
+    display: inline-block;
+}
+.navlist{
+   overflow: hidden;
+   background-color: cornflowerblue;
+   margin-left:1px;
+}
+.navlist a {
+    float: inline-start;
+    margin: 5px;
+    padding: 20px;
+    text-decoration: wavy;
+    display: block;
+    color:beige;
+}
+.deals{
+    float:top;
+    padding-right:200px;
+    margin-top:5px;
+    font-size: 20px;
+    margin-left:1200px;
+    list-style-type: disc;
+}
+.image{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRdHoSilEfQI--59l--C8KV49vS4SFOyMOcw&usqp=CAU");
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+
+}
+.bglogo{
+ 
+    margin-left:200px;
+    margin-top:10px;
+
+}
+ .bgli{
+    color: black;
+    font-style:italic;
+   float:inline-start;
+font-size: 60px;
+display: contents;
+margin-top: 1000px!;
+text-shadow:4px 6px grey;
+margin-top: 100px;
+
+}
+
+/* ul {
+    margin-top: 1000px;
+    color: black;
+    font-style:italic;
+   float:inline-start;
+font-size: 60px;
+display: contents;
+
+text-shadow:4px 6px grey;
+
+} */
+.para{
+    text-align:center ;
+ font-weight: bold;
+ color:blueviolet;
+     font-size:30px;
+}
+.column{
+    column-count: 4;
+    column-gap: 40px;
+    padding: 10px 20px;
+    float:left;
+}
+.footer{
+    text-align: end;
+
+    color:bisque;
+    display: block;
+
+}
+

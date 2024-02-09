@@ -1,0 +1,63 @@
+.jk{
+    background-color: aquamarine;
+    border-radius: 1px solid;
+    height: 50px;
+    width: 500px;
+    /* transform: translate(50px,100px); */
+}
+.jk:hover{
+    transform:rotate(15deg);
+}
+
+.level{
+    height: 100px;
+    width:200px;
+    background-color: bisque;
+    transition: width 2s;
+
+}
+
+.level:hover{
+ width: 50px;
+}
+
+.ani{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    animation-duration: 4s;
+    animation-name: anim;
+    position: relative;
+    animation-iteration-count: 3;
+    animation-timing-function: linear;
+   
+}
+@keyframes anim{
+    from {background-color: blueviolet; left:10px;top: 30px;}
+    to {background-color: burlywood; left:40px;top:65px;}
+}
+
+.tooltip{
+    position: relative;
+   display:inline-block;
+   border-bottom: 1px solid;
+}
+.tooltip.tooltiptext{
+    visibility: hidden;
+    border-radius:4px;
+    width:100%;
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    padding:10px 5px;
+    }
+    /*position the tooltip*/
+   { position:absolute;
+    z-index:1;
+   }
+   .tooltip:hover .tooltiptext{
+   visibility: visible;
+}
+.picture{
+    position: relative;
+}

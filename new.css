@@ -1,0 +1,49 @@
+input[type=text],select{
+    width: 50%;
+    padding: 5px 10px;
+    border: black;
+    margin: 10px 20px;
+    display: inline-block;
+    border-radius: 8px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+input[type=submit]{
+    width: 100px;
+    padding: 5px 10px;
+    background-color: darkgray;
+    border-color: black;
+    margin: 20;
+    display: inline-block;
+    border-radius: 20px;
+    box-sizing:content-box
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: aquamarine;
+}
+div {
+    border-radius: initial;
+    background-color: bisque;
+    padding: 10px 10px;
+}
+textarea{
+    width: 50%;
+    height: 50%;
+    padding:10px 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: text;
+    margin-top: 20px;
+    border-color: black;
+
+}
+body{
+    counter-reset: sec;
+}
+h2::before{
+    counter-increment: sec;
+    content: "sec"counter(sec) ":";
+}

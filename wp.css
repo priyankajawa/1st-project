@@ -1,0 +1,83 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+
+.logo img{
+    float:right;
+    width:250px;
+    height:auto;
+  opacity: 0.2;
+}
+
+header{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMyWsvqWacnZWOTpi-yOVG_hrlQP8KgFs7zw&usqp=CAU");
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+
+.top{
+    text-align: center;
+    font-size:40px;
+    font-style: italic ,bold;
+    text-shadow:2px 3px grey;
+    
+}
+ul{
+    float:bottom;
+    padding:20px;
+    margin-top:5px;
+    font-size: 20px;
+    margin-left:30px;
+    list-style-type: disc;
+}
+
+
+ul li {
+    display:inline-block;
+}
+ul li a{
+    text-decoration: none;
+    padding:10px 20px;
+    color:cyan;
+    transition: 0.1 ease;
+ 
+}
+ul li a:hover{
+    background-color: black;
+    color:antiquewhite;
+}
+
+.reg{
+    text-align: center;
+    border-style:hidden;
+    border-color: bisque;
+   margin-top: 300px;
+   font-style: italic;
+
+}
+
+input[type=submit]{
+    width: auto;
+    padding-bottom:40px 40px ;
+    background-color: grey;
+    display:inline;
+    transition:5s;
+    font-size: medium;
+}
+input[type=submit]:hover{
+    background-color: darkturquoise;
+}
+.sub{
+    display: block;
+    margin-top: 5px;
+}
+/*style the footer*/
+.footer{
+    text-align: end;
+    padding-bottom:0px 0px;
+margin-top: 500px;
+}
